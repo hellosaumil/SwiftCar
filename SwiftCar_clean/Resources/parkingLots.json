@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Lot 101",
+        "subtitle": "San Diego State University",
+        "coordinates": {
+            "latitude": 32.77600000000003,
+            "longitude": -117.0713
+            
+        }
+    },
+    
+    {
+        "title": "Lot 106",
+        "subtitle": "Downtown SD",
+        "coordinates": {
+            "latitude": 32.7200487555624,
+            "longitude": -117.15563519723445
+            
+        }
+    },
+    
+    {
+        
+        "title": "Lot 105",
+        "subtitle": "Imperial Beach",
+        "coordinates": {
+            "latitude": 32.59177449761567,
+            "longitude": -117.12484805753148
+            
+        }
+    },
+    
+    {
+        "title": "Lot 104",
+        "subtitle": "San Diego Airport",
+        "coordinates":
+        {
+            "latitude": 32.73347708905836,
+            "longitude": -117.19732794757006
+        }
+        
+    },
+    
+    {
+        "title": "Lot 102",
+        "subtitle": "UC San Diego",
+        "coordinates": {
+            "latitude": 32.87762168290562,
+            "longitude": -117.23436022952417
+        }
+    },
+    
+    {
+        "title": "Lot 103",
+        "subtitle": "Carlsbad",
+        "coordinates": {
+            "latitude": 33.164344519124356,
+            "longitude": -117.34066079378339
+            
+        }
+    }
+]

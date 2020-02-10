@@ -9,21 +9,93 @@
 /* Begin PBXBuildFile section */
 		6B6682E623B0BFC200152260 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6682E523B0BFC200152260 /* AppDelegate.swift */; };
 		6B6682E823B0BFC200152260 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6682E723B0BFC200152260 /* SceneDelegate.swift */; };
-		6B6682EA23B0BFC200152260 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6682E923B0BFC200152260 /* ContentView.swift */; };
 		6B6682EC23B0BFC400152260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B6682EB23B0BFC400152260 /* Assets.xcassets */; };
 		6B6682EF23B0BFC400152260 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B6682EE23B0BFC400152260 /* Preview Assets.xcassets */; };
 		6B6682F223B0BFC400152260 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B6682F023B0BFC400152260 /* LaunchScreen.storyboard */; };
+		6B66830723B0C00300152260 /* vehicleInUse.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B6682FA23B0C00300152260 /* vehicleInUse.json */; };
+		6B66830823B0C00300152260 /* parkingLots.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B6682FB23B0C00300152260 /* parkingLots.json */; };
+		6B66830923B0C00300152260 /* vehicles.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B6682FC23B0C00300152260 /* vehicles.json */; };
+		6B66830A23B0C00300152260 /* userLoginData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B6682FD23B0C00300152260 /* userLoginData.json */; };
+		6B66830B23B0C00300152260 /* honda_crv.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B6682FF23B0C00300152260 /* honda_crv.png */; };
+		6B66830C23B0C00300152260 /* ford_van.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B66830023B0C00300152260 /* ford_van.png */; };
+		6B66830D23B0C00300152260 /* jeep_wrangler.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B66830123B0C00300152260 /* jeep_wrangler.png */; };
+		6B66830E23B0C00300152260 /* ford_focus.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B66830223B0C00300152260 /* ford_focus.png */; };
+		6B66830F23B0C00300152260 /* honda_civic.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B66830323B0C00300152260 /* honda_civic.png */; };
+		6B66831023B0C00300152260 /* allTrips.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B66830423B0C00300152260 /* allTrips.json */; };
+		6B66831123B0C00300152260 /* lotAssignments.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B66830523B0C00300152260 /* lotAssignments.json */; };
+		6B66831223B0C00300152260 /* fleet.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B66830623B0C00300152260 /* fleet.json */; };
+		6B66833923B0C04100152260 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66833623B0C04000152260 /* HomePageView.swift */; };
+		6B66833A23B0C04100152260 /* FleetOwnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66833723B0C04000152260 /* FleetOwnerView.swift */; };
+		6B66833B23B0C04100152260 /* RiderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66833823B0C04100152260 /* RiderView.swift */; };
+		6B66835123B0C0E800152260 /* LotsOnMapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66833D23B0C0E800152260 /* LotsOnMapsView.swift */; };
+		6B66835223B0C0E800152260 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66833E23B0C0E800152260 /* MapView.swift */; };
+		6B66835323B0C0E800152260 /* HelperViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66833F23B0C0E800152260 /* HelperViews.swift */; };
+		6B66835423B0C0E800152260 /* AvailableCarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66834123B0C0E800152260 /* AvailableCarsView.swift */; };
+		6B66835523B0C0E800152260 /* DriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66834223B0C0E800152260 /* DriveView.swift */; };
+		6B66835623B0C0E800152260 /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66834323B0C0E800152260 /* TripsView.swift */; };
+		6B66835723B0C0E800152260 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66834423B0C0E800152260 /* AccountView.swift */; };
+		6B66835823B0C0E800152260 /* FleetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66834723B0C0E800152260 /* FleetView.swift */; };
+		6B66835923B0C0E800152260 /* NewVehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66834823B0C0E800152260 /* NewVehicleView.swift */; };
+		6B66835A23B0C0E800152260 /* FleetManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66834923B0C0E800152260 /* FleetManagementView.swift */; };
+		6B66835B23B0C0E800152260 /* AssignLotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66834A23B0C0E800152260 /* AssignLotsView.swift */; };
+		6B66835C23B0C0E800152260 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66834C23B0C0E800152260 /* LoginView.swift */; };
+		6B66835D23B0C0E800152260 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66834D23B0C0E800152260 /* SignUpView.swift */; };
+		6B66835E23B0C0E800152260 /* VehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66834F23B0C0E800152260 /* VehicleView.swift */; };
+		6B66835F23B0C0E800152260 /* VehicleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66835023B0C0E800152260 /* VehicleListView.swift */; };
+		6B66836823B0C10D00152260 /* TripObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66836123B0C10D00152260 /* TripObject.swift */; };
+		6B66836923B0C10D00152260 /* CustomAnnotationPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66836223B0C10D00152260 /* CustomAnnotationPoint.swift */; };
+		6B66836A23B0C10D00152260 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66836323B0C10D00152260 /* Data.swift */; };
+		6B66836B23B0C10D00152260 /* ParkingLot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66836423B0C10D00152260 /* ParkingLot.swift */; };
+		6B66836C23B0C10D00152260 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66836523B0C10D00152260 /* Vehicle.swift */; };
+		6B66836D23B0C10D00152260 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66836623B0C10D00152260 /* User.swift */; };
+		6B66836E23B0C10D00152260 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66836723B0C10D00152260 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B6682E223B0BFC200152260 /* SwiftCar_clean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCar_clean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B6682E523B0BFC200152260 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B6682E723B0BFC200152260 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6B6682E923B0BFC200152260 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B6682EB23B0BFC400152260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B6682EE23B0BFC400152260 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6B6682F123B0BFC400152260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B6682F323B0BFC400152260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B6682FA23B0C00300152260 /* vehicleInUse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vehicleInUse.json; sourceTree = "<group>"; };
+		6B6682FB23B0C00300152260 /* parkingLots.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = parkingLots.json; sourceTree = "<group>"; };
+		6B6682FC23B0C00300152260 /* vehicles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vehicles.json; sourceTree = "<group>"; };
+		6B6682FD23B0C00300152260 /* userLoginData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = userLoginData.json; sourceTree = "<group>"; };
+		6B6682FF23B0C00300152260 /* honda_crv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = honda_crv.png; sourceTree = "<group>"; };
+		6B66830023B0C00300152260 /* ford_van.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ford_van.png; sourceTree = "<group>"; };
+		6B66830123B0C00300152260 /* jeep_wrangler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jeep_wrangler.png; sourceTree = "<group>"; };
+		6B66830223B0C00300152260 /* ford_focus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ford_focus.png; sourceTree = "<group>"; };
+		6B66830323B0C00300152260 /* honda_civic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = honda_civic.png; sourceTree = "<group>"; };
+		6B66830423B0C00300152260 /* allTrips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = allTrips.json; sourceTree = "<group>"; };
+		6B66830523B0C00300152260 /* lotAssignments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lotAssignments.json; sourceTree = "<group>"; };
+		6B66830623B0C00300152260 /* fleet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fleet.json; sourceTree = "<group>"; };
+		6B66833623B0C04000152260 /* HomePageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		6B66833723B0C04000152260 /* FleetOwnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FleetOwnerView.swift; sourceTree = "<group>"; };
+		6B66833823B0C04100152260 /* RiderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderView.swift; sourceTree = "<group>"; };
+		6B66833D23B0C0E800152260 /* LotsOnMapsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LotsOnMapsView.swift; sourceTree = "<group>"; };
+		6B66833E23B0C0E800152260 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		6B66833F23B0C0E800152260 /* HelperViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperViews.swift; sourceTree = "<group>"; };
+		6B66834123B0C0E800152260 /* AvailableCarsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailableCarsView.swift; sourceTree = "<group>"; };
+		6B66834223B0C0E800152260 /* DriveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriveView.swift; sourceTree = "<group>"; };
+		6B66834323B0C0E800152260 /* TripsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
+		6B66834423B0C0E800152260 /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		6B66834723B0C0E800152260 /* FleetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FleetView.swift; sourceTree = "<group>"; };
+		6B66834823B0C0E800152260 /* NewVehicleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewVehicleView.swift; sourceTree = "<group>"; };
+		6B66834923B0C0E800152260 /* FleetManagementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FleetManagementView.swift; sourceTree = "<group>"; };
+		6B66834A23B0C0E800152260 /* AssignLotsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignLotsView.swift; sourceTree = "<group>"; };
+		6B66834C23B0C0E800152260 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6B66834D23B0C0E800152260 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		6B66834F23B0C0E800152260 /* VehicleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleView.swift; sourceTree = "<group>"; };
+		6B66835023B0C0E800152260 /* VehicleListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleListView.swift; sourceTree = "<group>"; };
+		6B66836123B0C10D00152260 /* TripObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripObject.swift; sourceTree = "<group>"; };
+		6B66836223B0C10D00152260 /* CustomAnnotationPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotationPoint.swift; sourceTree = "<group>"; };
+		6B66836323B0C10D00152260 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		6B66836423B0C10D00152260 /* ParkingLot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingLot.swift; sourceTree = "<group>"; };
+		6B66836523B0C10D00152260 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		6B66836623B0C10D00152260 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6B66836723B0C10D00152260 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +128,13 @@
 		6B6682E423B0BFC200152260 /* SwiftCar_clean */ = {
 			isa = PBXGroup;
 			children = (
-				6B6682E523B0BFC200152260 /* AppDelegate.swift */,
-				6B6682E723B0BFC200152260 /* SceneDelegate.swift */,
-				6B6682E923B0BFC200152260 /* ContentView.swift */,
+				6B66836F23B0C16400152260 /* Delegates */,
+				6B66833623B0C04000152260 /* HomePageView.swift */,
+				6B66833723B0C04000152260 /* FleetOwnerView.swift */,
+				6B66833823B0C04100152260 /* RiderView.swift */,
+				6B66836023B0C10D00152260 /* Models */,
+				6B66833C23B0C0E800152260 /* Supporting Views */,
+				6B6682F923B0C00300152260 /* Resources */,
 				6B6682EB23B0BFC400152260 /* Assets.xcassets */,
 				6B6682F023B0BFC400152260 /* LaunchScreen.storyboard */,
 				6B6682F323B0BFC400152260 /* Info.plist */,
@@ -73,6 +149,120 @@
 				6B6682EE23B0BFC400152260 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6B6682F923B0C00300152260 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B6682FA23B0C00300152260 /* vehicleInUse.json */,
+				6B6682FB23B0C00300152260 /* parkingLots.json */,
+				6B6682FC23B0C00300152260 /* vehicles.json */,
+				6B6682FD23B0C00300152260 /* userLoginData.json */,
+				6B6682FE23B0C00300152260 /* VehicleImages */,
+				6B66830423B0C00300152260 /* allTrips.json */,
+				6B66830523B0C00300152260 /* lotAssignments.json */,
+				6B66830623B0C00300152260 /* fleet.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B6682FE23B0C00300152260 /* VehicleImages */ = {
+			isa = PBXGroup;
+			children = (
+				6B6682FF23B0C00300152260 /* honda_crv.png */,
+				6B66830023B0C00300152260 /* ford_van.png */,
+				6B66830123B0C00300152260 /* jeep_wrangler.png */,
+				6B66830223B0C00300152260 /* ford_focus.png */,
+				6B66830323B0C00300152260 /* honda_civic.png */,
+			);
+			path = VehicleImages;
+			sourceTree = "<group>";
+		};
+		6B66833C23B0C0E800152260 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B66833D23B0C0E800152260 /* LotsOnMapsView.swift */,
+				6B66833E23B0C0E800152260 /* MapView.swift */,
+				6B66833F23B0C0E800152260 /* HelperViews.swift */,
+				6B66834023B0C0E800152260 /* Rider Views */,
+				6B66834523B0C0E800152260 /* Fleet Owner VIews */,
+				6B66834B23B0C0E800152260 /* Auth Views */,
+				6B66834E23B0C0E800152260 /* Vehicle Views */,
+			);
+			name = "Supporting Views";
+			path = "SwiftCar_clean/Supporting Views";
+			sourceTree = SOURCE_ROOT;
+		};
+		6B66834023B0C0E800152260 /* Rider Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B66834123B0C0E800152260 /* AvailableCarsView.swift */,
+				6B66834223B0C0E800152260 /* DriveView.swift */,
+				6B66834323B0C0E800152260 /* TripsView.swift */,
+				6B66834423B0C0E800152260 /* AccountView.swift */,
+			);
+			path = "Rider Views";
+			sourceTree = "<group>";
+		};
+		6B66834523B0C0E800152260 /* Fleet Owner VIews */ = {
+			isa = PBXGroup;
+			children = (
+				6B66834623B0C0E800152260 /* Fleet Management */,
+			);
+			path = "Fleet Owner VIews";
+			sourceTree = "<group>";
+		};
+		6B66834623B0C0E800152260 /* Fleet Management */ = {
+			isa = PBXGroup;
+			children = (
+				6B66834723B0C0E800152260 /* FleetView.swift */,
+				6B66834823B0C0E800152260 /* NewVehicleView.swift */,
+				6B66834923B0C0E800152260 /* FleetManagementView.swift */,
+				6B66834A23B0C0E800152260 /* AssignLotsView.swift */,
+			);
+			path = "Fleet Management";
+			sourceTree = "<group>";
+		};
+		6B66834B23B0C0E800152260 /* Auth Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B66834C23B0C0E800152260 /* LoginView.swift */,
+				6B66834D23B0C0E800152260 /* SignUpView.swift */,
+			);
+			path = "Auth Views";
+			sourceTree = "<group>";
+		};
+		6B66834E23B0C0E800152260 /* Vehicle Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B66834F23B0C0E800152260 /* VehicleView.swift */,
+				6B66835023B0C0E800152260 /* VehicleListView.swift */,
+			);
+			path = "Vehicle Views";
+			sourceTree = "<group>";
+		};
+		6B66836023B0C10D00152260 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6B66836123B0C10D00152260 /* TripObject.swift */,
+				6B66836223B0C10D00152260 /* CustomAnnotationPoint.swift */,
+				6B66836323B0C10D00152260 /* Data.swift */,
+				6B66836423B0C10D00152260 /* ParkingLot.swift */,
+				6B66836523B0C10D00152260 /* Vehicle.swift */,
+				6B66836623B0C10D00152260 /* User.swift */,
+				6B66836723B0C10D00152260 /* UserData.swift */,
+			);
+			name = Models;
+			path = SwiftCar_clean/Models;
+			sourceTree = SOURCE_ROOT;
+		};
+		6B66836F23B0C16400152260 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				6B6682E523B0BFC200152260 /* AppDelegate.swift */,
+				6B6682E723B0BFC200152260 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +324,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B6682F223B0BFC400152260 /* LaunchScreen.storyboard in Resources */,
+				6B66830D23B0C00300152260 /* jeep_wrangler.png in Resources */,
+				6B66830723B0C00300152260 /* vehicleInUse.json in Resources */,
 				6B6682EF23B0BFC400152260 /* Preview Assets.xcassets in Resources */,
+				6B66831123B0C00300152260 /* lotAssignments.json in Resources */,
+				6B66830E23B0C00300152260 /* ford_focus.png in Resources */,
+				6B66830F23B0C00300152260 /* honda_civic.png in Resources */,
+				6B66830823B0C00300152260 /* parkingLots.json in Resources */,
+				6B66831223B0C00300152260 /* fleet.json in Resources */,
+				6B66830B23B0C00300152260 /* honda_crv.png in Resources */,
+				6B66831023B0C00300152260 /* allTrips.json in Resources */,
+				6B66830A23B0C00300152260 /* userLoginData.json in Resources */,
+				6B66830923B0C00300152260 /* vehicles.json in Resources */,
 				6B6682EC23B0BFC400152260 /* Assets.xcassets in Resources */,
+				6B66830C23B0C00300152260 /* ford_van.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +348,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B66836D23B0C10D00152260 /* User.swift in Sources */,
+				6B66835E23B0C0E800152260 /* VehicleView.swift in Sources */,
+				6B66833A23B0C04100152260 /* FleetOwnerView.swift in Sources */,
+				6B66836923B0C10D00152260 /* CustomAnnotationPoint.swift in Sources */,
+				6B66836C23B0C10D00152260 /* Vehicle.swift in Sources */,
 				6B6682E623B0BFC200152260 /* AppDelegate.swift in Sources */,
+				6B66835523B0C0E800152260 /* DriveView.swift in Sources */,
+				6B66835323B0C0E800152260 /* HelperViews.swift in Sources */,
+				6B66836B23B0C10D00152260 /* ParkingLot.swift in Sources */,
+				6B66833B23B0C04100152260 /* RiderView.swift in Sources */,
+				6B66835C23B0C0E800152260 /* LoginView.swift in Sources */,
+				6B66835423B0C0E800152260 /* AvailableCarsView.swift in Sources */,
+				6B66835823B0C0E800152260 /* FleetView.swift in Sources */,
+				6B66835623B0C0E800152260 /* TripsView.swift in Sources */,
 				6B6682E823B0BFC200152260 /* SceneDelegate.swift in Sources */,
-				6B6682EA23B0BFC200152260 /* ContentView.swift in Sources */,
+				6B66835223B0C0E800152260 /* MapView.swift in Sources */,
+				6B66836A23B0C10D00152260 /* Data.swift in Sources */,
+				6B66835923B0C0E800152260 /* NewVehicleView.swift in Sources */,
+				6B66835B23B0C0E800152260 /* AssignLotsView.swift in Sources */,
+				6B66836823B0C10D00152260 /* TripObject.swift in Sources */,
+				6B66835F23B0C0E800152260 /* VehicleListView.swift in Sources */,
+				6B66836E23B0C10D00152260 /* UserData.swift in Sources */,
+				6B66835D23B0C0E800152260 /* SignUpView.swift in Sources */,
+				6B66835A23B0C0E800152260 /* FleetManagementView.swift in Sources */,
+				6B66835723B0C0E800152260 /* AccountView.swift in Sources */,
+				6B66835123B0C0E800152260 /* LotsOnMapsView.swift in Sources */,
+				6B66833923B0C04100152260 /* HomePageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

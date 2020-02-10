@@ -1,0 +1,9 @@
+{
+    "john" : {
+        "vid": "jeep_wrangler3",
+        "vehicleName": "Jeep Wrangler",
+        "imageName": "jeep_wrangler",
+        "price": 12.75
+    }
+    
+}

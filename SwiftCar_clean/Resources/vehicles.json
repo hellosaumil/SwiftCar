@@ -1,0 +1,39 @@
+[
+    {
+        
+        "vid": "ford_focus1",
+        "vehicleName": "Ford Focus",
+        "imageName": "ford_focus",
+        "price": 8.75
+    },
+    
+    {
+        
+        "vid": "ford_van1",
+        "vehicleName": "Ford Van",
+        "imageName": "ford_van",
+        "price": 10.75
+    },
+    
+    {
+        "vid": "honda_civic1",
+        "vehicleName": "Honda Civic",
+        "imageName": "honda_civic",
+        "price": 9.75
+    },
+    
+    {
+        "vid": "honda_crv1",
+        "vehicleName": "Honda CR-V",
+        "imageName": "honda_crv",
+        "price": 11.75
+    },
+    
+    {
+        "vid": "jeep_wrangler1",
+        "vehicleName": "Jeep Wrangler",
+        "imageName": "jeep_wrangler",
+        "price": 12.75
+    }
+    
+]

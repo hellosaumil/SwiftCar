@@ -1,0 +1,9 @@
+{
+  "email@company.com": {
+    "userEmail": "email@company.com",
+    "startDate": "2019-12-17 23:28:56",
+    "endDate": "2019-12-17 23:41:06",
+    "vehicleID": "id_car",
+    "vehicleCost": 1.5
+  }
+}
